@@ -1,0 +1,137 @@
+@media only screen and (max-width: 575px) {
+  nav img {
+    width: 200px;
+  }
+  nav div {
+    font-size: 20px;
+  }
+  div span {
+    font-size: 8px;
+  }
+  .card-text {
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 22;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  nav img {
+    width: 200px;
+  }
+  nav div {
+    font-size: 25px;
+  }
+  div span {
+    font-size: 10px;
+  }
+  .card-text {
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 22;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  nav div {
+    font-size: 25px;
+    margin-right: 100px;
+  }
+  nav img {
+    width: 200px;
+  }
+  div span {
+    font-size: 12px;
+  }
+  .card-text {
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 10;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .card-title {
+    height: 1.5rem;
+  }
+  div span {
+    font-size: 14px;
+  }
+  .card-text {
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 10;
+  }
+}
+
+@media only screen and (min-width: 1075px) {
+  .card-title {
+    height: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  nav img {
+    width: 225px;
+  }
+
+  nav div {
+    font-size: 25px;
+    margin-right: 200px;
+  }
+  .list-group-item {
+    font-size: 1.1rem;
+  }
+  .card-text {
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 10;
+  }
+}
+
+@media only screen and (min-width: 1381px) {
+  .card-title {
+    height: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  nav img {
+    width: 250px;
+    padding: 10px 0;
+  }
+  nav div {
+    font-size: 35px;
+    margin-right: 300px;
+  }
+  .list-group-item {
+    font-size: 1.1rem;
+  }
+  .card-text {
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 10;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .card-text {
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 10;
+  }
+}

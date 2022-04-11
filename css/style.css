@@ -1,0 +1,99 @@
+.card-text {
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+}
+
+@media only screen and (max-width: 575px) {
+  nav img {
+    width: 200px;
+  }
+  nav div {
+    font-size: 20px;
+  }
+  div span {
+    font-size: 8px;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  nav img {
+    width: 200px;
+  }
+  nav div {
+    font-size: 25px;
+  }
+  div span {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  nav div {
+    font-size: 25px;
+    margin-right: 100px;
+  }
+  nav img {
+    width: 200px;
+  }
+  div span {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .card-title {
+    height: 2.5rem;
+  }
+  div span {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 1075px) {
+  .card-title {
+    height: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  nav img {
+    width: 225px;
+  }
+  .card-title {
+    height: 3.5rem;
+  }
+  nav div {
+    font-size: 25px;
+    margin-right: 200px;
+  }
+  .list-group-item {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (min-width: 1381px) {
+  .card-title {
+    height: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  nav img {
+    width: 250px;
+    padding: 10px 0;
+  }
+  nav div {
+    font-size: 35px;
+    margin-right: 300px;
+  }
+  .list-group-item {
+    font-size: 1.1rem;
+  }
+}
+
+.iframe {
+  font-size: 16px;
+}
